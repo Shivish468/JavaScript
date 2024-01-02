@@ -6,10 +6,10 @@ let myDate = new Date()
 // console.log(myDate.toLocaleString());
 // console.log(typeof myDate);
 
-// let myCreatedDate = new Date(2023, 0, 23)
-// let myCreatedDate = new Date(2023, 0, 23, 5, 3)
-// let myCreatedDate = new Date("2023-01-14")
-let myCreatedDate = new Date("01-14-2023")
+// let myCreatedDate = new Date(2024, 0, 03)
+// let myCreatedDate = new Date(2024, 0, 03, 5, 3)
+// let myCreatedDate = new Date("2024-01-03")
+let myCreatedDate = new Date("01-03-2024")
 // console.log(myCreatedDate.toLocaleString());
 
 let myTimeStamp = Date.now()
