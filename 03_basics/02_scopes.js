@@ -3,6 +3,7 @@ let a = 300
 if (true) {
     let a = 10
     const b = 20
+    var c = 30
     // console.log("INNER: ", a);
     
 }
@@ -15,10 +16,10 @@ if (true) {
 
 
 function one(){
-    const username = "hitesh"
+    const username = "shivish"
 
     function two(){
-        const website = "youtube"
+        const website = "github"
         console.log(username);
     }
     // console.log(website);
@@ -30,9 +31,9 @@ function one(){
 // one()
 
 if (true) {
-    const username = "hitesh"
-    if (username === "hitesh") {
-        const website = " youtube"
+    const username = "shivish"
+    if (username === "shivish") {
+        const website = " github"
         // console.log(username + website);
     }
     // console.log(website);
