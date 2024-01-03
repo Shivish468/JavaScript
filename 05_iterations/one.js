@@ -21,8 +21,8 @@ for (let i = 1; i <= 10; i++) {
 }
 let myArray = ["flash", "batman", "superman"]
 //console.log(myArray.length);
-for (let index = 0; index < myArray.length; index++) {
-    const element = myArray[index];
+for (let i = 0; i < myArray.length; i++) {
+    const element = myArray[i];
     //console.log(element);
     
 }
