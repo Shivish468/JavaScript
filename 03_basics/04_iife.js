@@ -7,6 +7,7 @@
 })();
 
 ( (name) => {
+    // unnamed iife
     console.log(`DB CONNECTED TWO ${name}`);
-} )('hitesh')
+} )('shivish')
 
