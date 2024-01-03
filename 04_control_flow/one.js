@@ -1,11 +1,11 @@
 // if
 const isUserloggedIn = true
-const temperature = 41
+const temperature = 21
 
-// if ( temperature === 40 ){
-//     console.log("less than 50");
+// if ( temperature === 20 ){
+//     console.log("temperature is equal to 20");
 // } else {
-//     console.log("temperature is greater than 50");
+//     console.log("temperature is greater than 20");
 // }
 
 // console.log("Execute");
