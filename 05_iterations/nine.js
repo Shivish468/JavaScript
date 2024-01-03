@@ -1,4 +1,5 @@
 const myNums = [1, 2, 3]
+// accumulator -> firstly take the initial value after that take processed value
 
 // const myTotal = myNums.reduce(function (acc, currval) {
 //     console.log(`acc: ${acc} and currval: ${currval}`);
