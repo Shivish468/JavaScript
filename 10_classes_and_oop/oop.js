@@ -1,6 +1,6 @@
 const user = {
-    username: "hitesh",
-    loginCount: 8,
+    username: "shivish",
+    loginCount: 5,
     signedIn: true,
 
     getUserDetails: function(){
