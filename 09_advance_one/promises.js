@@ -11,13 +11,15 @@ promiseOne.then(function(){
     console.log("Promise consumed");
 })
 
-new Promise(function(resolve, reject){
+const promiseTwo = new Promise(function(resolve, reject){
     setTimeout(function(){
         console.log("Async task 2");
         resolve()
     }, 1000)
 
-}).then(function(){
+})
+
+promiseTwo.then(function(){
     console.log("Async 2 resolved");
 })
 
@@ -83,13 +85,13 @@ consumePromiseFive()
 //         const data = await response.json()
 //         console.log(data);
 //     } catch (error) {
-//         console.log("E: ", error);
+//         console.log(error);
 //     }
 // }
 
 //getAllUsers()
 
-fetch('https://api.github.com/users/hiteshchoudhary')
+fetch('https://api.github.com/users/Shivish468')
 .then((response) => {
     return response.json()
 })
