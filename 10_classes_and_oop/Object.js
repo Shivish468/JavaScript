@@ -1,13 +1,13 @@
-function multipleBy3(num){
+function multipleBy5(num){
 
-    return num*3
+    return num*5
 }
 
-multipleBy3.power = 2
+multipleBy5.power = 2
 
-console.log(multipleBy3(3));
-console.log(multipleBy3.power);
-console.log(multipleBy3.prototype);
+console.log(multipleBy5(5));
+console.log(multipleBy5.power);
+console.log(multipleBy5.prototype);
 
 function createUser(username, score){
     this.username = username
@@ -22,7 +22,7 @@ createUser.prototype.printMe = function(){
 }
 
 const chai = new createUser("chai", 25)
-const tea = createUser("tea", 250)
+const tea = createUser("tea", 255)
 
 chai.printMe()
 
