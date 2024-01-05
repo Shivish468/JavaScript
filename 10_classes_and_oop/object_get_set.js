@@ -1,5 +1,5 @@
 const User = {
-    _email: 'h@hc.com',
+    _email: 's@ski.com',
     _password: "abc",
 
 
@@ -12,5 +12,5 @@ const User = {
     }
 }
 
-const tea = Object.create(User)
-console.log(tea.email);
+const code = Object.create(User)
+console.log(code.email);
