@@ -1,13 +1,13 @@
-function multipleBy5(num){
+function multipleBy3(num){
 
-    return num*5
+    return num*3
 }
 
-multipleBy5.power = 2
+multipleBy3.power = 2
 
-console.log(multipleBy5(5));
-console.log(multipleBy5.power);
-console.log(multipleBy5.prototype);
+console.log(multipleBy3(3));
+console.log(multipleBy3.power);
+console.log(multipleBy3.prototype);
 
 function createUser(username, score){
     this.username = username
