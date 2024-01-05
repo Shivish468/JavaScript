@@ -16,10 +16,10 @@ class User {
 
 }
 
-const chai = new User("chai", "chai@gmail.com", "123")
+const code = new User("code", "code@gmail.com", "123")
 
-console.log(chai.encryptPassword());
-console.log(chai.changeUsername());
+console.log(code.encryptPassword());
+console.log(code.changeUsername());
 
 // behind the scene
 
