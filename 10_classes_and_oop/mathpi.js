@@ -8,7 +8,7 @@ const descripter = Object.getOwnPropertyDescriptor(Math, "PI")
 
 const chai = {
     name: 'ginger chai',
-    price: 250,
+    price: 25,
     isAvailable: true,
 
     orderChai: function(){
