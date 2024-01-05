@@ -20,11 +20,11 @@ class Teacher extends User{
     }
 }
 
-const chai = new Teacher("chai", "chai@teacher.com", "123")
+const code = new Teacher("code", "code@teacher.com", "123")
 
-chai.logMe()
+code.logMe()
 const masalaChai = new User("masalaChai")
 
 masalaChai.logMe()
 
-console.log(chai instanceof User);
+console.log(code instanceof User);
